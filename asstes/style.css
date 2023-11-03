@@ -88,4 +88,28 @@
 }
 
 
+.score_val {
+    color: gold;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .message{
+        font-size: 50px;
+        top: 50%;
+        white-space: nowrap;
+    }
+    .score{
+        font-size: 8vh;
+    }
+    .jet{
+        width: 120px;
+        height: 90px;
+    }
+    .meteor_shower{
+        width: 14vw;
+    }
+}
+
 
